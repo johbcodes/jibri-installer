@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-const JIBRI_API_URL = process.env.JIBRI_API_URL || "http://82.29.166.156:2222"; // Replace <jibri-ip> with actual IP
+const JIBRI_API_URL = process.env.JIBRI_API_URL || "http://ip:2222"; // Replace <jibri-ip> with actual IP
 
 async function startRecording(roomName) {
   try {
